@@ -11,6 +11,6 @@ public class Practice_4 {
             answer -= number;
         }
 
-        return answer;
+        System.out.println(answer);
     }
 }
