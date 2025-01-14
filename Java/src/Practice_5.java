@@ -30,7 +30,7 @@ public class Practice_5 {
             if (actualHeight >= M) {
                 answer += actualHeight; // 목재량 추가
                 lastCutIncrement[location - 1] = increment; // 현재 시점의 증가량 기록
-                H[location - 1] = 0;
+                H[location - 1] -= actualHeight;
             }
 
             switch(st.nextToken()){
